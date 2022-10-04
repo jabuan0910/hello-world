@@ -24,38 +24,70 @@
     
     <!-- Example of inline styling --> 
     <!-- <main style="background-color: green;"> -->
-      <main>
+    <main>
       <!-- section*4>img+p -->
       <section id="top-section">
         <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/307851088_1491434474617438_1903196369296489994_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0debeb&_nc_ohc=IW_JN_LaOjQAX9FxVqh&_nc_ht=scontent-sea1-1.xx&oh=00_AT-xwHxxxz-PSI0tz70lCS0SVeyaj-dEMJ69Tvw_xaiytQ&oe=633F5988" alt="">
+
+        <script>
+          let userName = prompt("What is your name?");
+        </script>
+        document.write(Greetings, " + userName + ", welcome to my page!");
+      </section>
+
         <p>ELorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
+
       <section id="box" class="lower1">
         <img src="https://worldanimalfoundation.org/wp-content/uploads/2022/09/best-dog-collar-for-pitbull-review-1.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1
         " alt="">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua.</p>
       </section>
+
       <section id="box" class="lower2">
         <img src="https://www.dognamegenerator.net/wp-content/uploads/Rottweiler-dog-names-male.jpg" alt=""/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua.</p>
       </section>
+
       <section id="box" class="lower3">
         <img src="https://via.placeholder.com/600x300.jpg" alt=""> 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua.</p>
       </section>
+
       <section id="box" class="lower4">
         <img src="https://via.placeholder.com/600x300.jpg" alt="">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua.</p>
       </section>
     </main>
-    <footer>&copy; Created by James Abuan</footer>
+
+    <footer>
+      <script>
+        let response = prompt ("Did you like my page?");
+        console.log("User said: " + response);
+        
+        if(response === "Yes"){
+          document.write("Come back soon!");
+        } else if (response === "No"){
+          document.write("Thanks for visiting!");
+        } else {
+          document.write("That is not a response I was looking for...");
+        }
+      
+        console.log("We are out of the if/else condition");
+
+      </script>
+    </footer>
+    <p>&copy; Created by James Abuan</p>
   </body>
-</html>
+
+<html>
 
