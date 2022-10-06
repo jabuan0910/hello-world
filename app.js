@@ -71,6 +71,11 @@ function yourDogsColor(){
   }
 }
 
+let response = prompt("Guess the color of my dog's eyes");
+while(response !== 'hazel'){
+  response = prompt("That's not it! Try again.")
+}
+
 getName()
 getDogPossession()
 yourDogsColor()
