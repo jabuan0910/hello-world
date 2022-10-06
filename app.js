@@ -75,3 +75,12 @@ getName()
 getDogPossession()
 yourDogsColor()
 likeIt()
+
+function rateMyPage(){
+  let rating = prompt("On a scale of 1-10, how pretty is my dog on my page?");
+  for (let i = 0; i < rating; i++){
+    document.write("<img class=function-pic src='Luna_2022-10-03_01-20-48.png' alt='smiling puppy'/>");
+  }
+}
+
+rateMyPage()
