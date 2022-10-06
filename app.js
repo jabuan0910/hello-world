@@ -14,17 +14,17 @@ function likeIt(){
  }
 }      
 
-let userNum = prompt("Guess what number I'm thinking of");
+// let userNum = prompt("Guess what number I'm thinking of");
 
-if (userNum === 42) {
-  console.log("You guessed it!");
-} else if (userNum < 42) {
-  console.log("Your number was less than my number");
-} else if (userNum > 42) {
-  console.log("Your number was greater than my number");
-} else {
-  console.log("That's not a number");
-}
+// if (userNum === 42) {
+//   console.log("You guessed it!");
+// } else if (userNum < 42) {
+//   console.log("Your number was less than my number");
+// } else if (userNum > 42) {
+//   console.log("Your number was greater than my number");
+// } else {
+//   console.log("That's not a number");
+// }
 
 
 // STRUCTURE OF A FUNCTION
@@ -49,7 +49,7 @@ function getName(){
   document.write("Greetings, " + userName + ", welcome to my page!");
 }
 
-function getWhatKindOfDog(){
+function getDogPossession(){
   let response = prompt("Do you have a dog?")
   if (response.toLowerCase() == "yes") {
     alert("Oh cool!")  
@@ -62,9 +62,9 @@ function getWhatKindOfDog(){
   }
 }
 
-function myFavColor(){
-  let guess = prompt("What's my fav color?");
-  if (guess === 'yellow'){
+function yourDogsColor(){
+  let guess = prompt("Guess the color of my dog");
+  if (guess === 'brown'){
     document.write("You're correct, " + userName + "!")
   } else {
     guess = prompt("Guess again!)");
@@ -72,5 +72,6 @@ function myFavColor(){
 }
 
 getName()
-getWhatKindOfDog()
-myFavColor()
+getDogPossession()
+yourDogsColor()
+likeIt()
